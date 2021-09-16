@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  height: 100vh;
 }
 
 body::-webkit-scrollbar {
@@ -35,7 +36,6 @@ body::-webkit-scrollbar {
 .appBody {
   background-color: #f4f4f4;
   font-family: "Poppins", sans-serif;
-  height: 100vh;
 }
 
 .countryCardCont {
@@ -73,4 +73,41 @@ body::-webkit-scrollbar {
   padding: 10px;
   border: none;
   outline: 0;
+}
+
+.countryCards {
+  margin: 40px auto;
+  max-width: 90%;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  grid-gap: 20px;
+}
+
+.countryCard {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.cardImage {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 5px;
+}
+
+.countryCardDetails {
+  margin: auto;
+  max-width: 90%;
+}
+
+.lead {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.subLead {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
 }
