@@ -1,5 +1,5 @@
-import React from 'react';
-import { HiOutlineMoon } from "react-icons/hi";
+import React from 'react'
+import { HiOutlineMoon } from "react-icons/hi"
 // import { FiSun } from "react-icons/fi";
 import "../index.css";
 
